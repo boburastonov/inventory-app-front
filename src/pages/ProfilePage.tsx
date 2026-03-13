@@ -1,4 +1,3 @@
-// src/pages/ProfilePage.tsx
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useParams, useNavigate } from "react-router";

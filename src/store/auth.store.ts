@@ -1,4 +1,3 @@
-// src/store/auth.store.ts
 import { create } from "zustand";
 
 import api from "../api/axios";
