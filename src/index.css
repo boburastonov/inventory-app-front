@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+}
+
+main {
+  min-height: calc(100vh - 60px);
+}
+
+.table-hover tbody tr {
+  cursor: pointer;
+}
+
+.tag-cloud .badge {
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.tag-cloud .badge:hover {
+  transform: scale(1.1);
+}
