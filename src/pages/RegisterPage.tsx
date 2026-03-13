@@ -13,8 +13,8 @@ interface RegisterForm {
 
 const RegisterPage = () => {
   const { t } = useTranslation();
-  const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const {
@@ -44,10 +44,11 @@ const RegisterPage = () => {
   if (success) {
     return (
       <div className="row justify-content-center">
-        <div className="col-md-5">
-          <div className="alert alert-success text-center">
-            <h5>✅ {t("auth.emailSent")}</h5>
-            <p>{t("auth.confirmEmail")}</p>
+        <div className="col-12 col-sm-8 col-md-6 col-lg-5">
+          <div className="alert alert-success text-center p-4">
+            <div className="fs-1 mb-2">✅</div>
+            <h5>{t("auth.emailSent")}</h5>
+            <p className="mb-3">{t("auth.confirmEmail")}</p>
             <Link to="/login" className="btn btn-primary">
               {t("auth.login")}
             </Link>
@@ -59,12 +60,12 @@ const RegisterPage = () => {
 
   return (
     <div className="row justify-content-center">
-      <div className="col-md-5">
+      <div className="col-12 col-sm-8 col-md-6 col-lg-5">
         <div className="card shadow-sm">
           <div className="card-body p-4">
             <h4 className="card-title mb-4">{t("auth.register")}</h4>
 
-            {error && <div className="alert alert-danger">{error}</div>}
+            {error && <div className="alert alert-danger py-2">{error}</div>}
 
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="mb-3">
@@ -72,7 +73,7 @@ const RegisterPage = () => {
                 <input
                   type="text"
                   className={`form-control ${errors.name ? "is-invalid" : ""}`}
-                  {...register("name", { required: true })}
+                  {...register("name", { required: true, minLength: 2 })}
                 />
               </div>
 
@@ -92,27 +93,36 @@ const RegisterPage = () => {
                   className={`form-control ${errors.password ? "is-invalid" : ""}`}
                   {...register("password", { required: true, minLength: 6 })}
                 />
+                {errors.password?.type === "minLength" && (
+                  <div className="invalid-feedback d-block">
+                    Parol kamida 6 ta belgidan iborat bo'lishi kerak
+                  </div>
+                )}
               </div>
 
               <button
                 type="submit"
-                className="btn btn-primary w-100"
+                className="btn btn-primary w-100 mb-3"
                 disabled={loading}
               >
                 {loading ? t("common.loading") : t("auth.register")}
               </button>
             </form>
 
-            <hr />
+            <div className="d-flex align-items-center mb-3">
+              <hr className="flex-grow-1" />
+              <span className="px-2 text-muted small">or</span>
+              <hr className="flex-grow-1" />
+            </div>
 
             <a
               href="http://localhost:3000/api/auth/google"
-              className="btn btn-outline-danger w-100"
+              className="btn btn-outline-danger w-100 mb-3"
             >
               🔴 {t("auth.loginWithGoogle")}
             </a>
 
-            <p className="text-center mt-3 mb-0">
+            <p className="text-center mb-0 small">
               {t("auth.haveAccount")} <Link to="/login">{t("auth.login")}</Link>
             </p>
           </div>
