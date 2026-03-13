@@ -1,0 +1,173 @@
+{
+  "common": {
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "add": "Qo'shish",
+    "search": "Qidirish",
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "confirm": "Ishonchingiz komilmi?",
+    "yes": "Ha",
+    "no": "Yo'q",
+    "back": "Orqaga",
+    "create": "Yaratish",
+    "allChangesSaved": "Barcha o'zgarishlar saqlandi",
+    "saving": "Saqlanmoqda..."
+  },
+  "navbar": {
+    "search": "Qidirish...",
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "profile": "Mening sahifam",
+    "admin": "Admin paneli",
+    "language": "Til",
+    "theme": "Mavzu",
+    "themeLight": "Kunduzgi",
+    "themeDark": "Tungi"
+  },
+  "home": {
+    "title": "Inventarizatsiya tizimi",
+    "latestInventories": "Oxirgi inventorylar",
+    "topInventories": "Eng mashhur 5 ta",
+    "tagCloud": "Teglar",
+    "creator": "Yaratuvchi",
+    "itemCount": "Elementlar"
+  },
+  "auth": {
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "name": "To'liq ism",
+    "loginWithGoogle": "Google orqali kirish",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "haveAccount": "Hisobingiz bormi?",
+    "confirmEmail": "Elektron pochtangizni tasdiqlang",
+    "emailSent": "Tasdiqlash xati yuborildi!",
+    "invalidCredentials": "Email yoki parol noto'g'ri",
+    "emailNotVerified": "Avval emailingizni tasdiqlang"
+  },
+  "profile": {
+    "title": "Mening sahifam",
+    "myInventories": "Mening inventorylarim",
+    "accessibleInventories": "Tahrirlash huquqim bor inventorylar",
+    "createInventory": "Inventory yaratish",
+    "noInventories": "Hali inventory yo'q"
+  },
+  "inventory": {
+    "title": "Sarlavha",
+    "description": "Tavsif",
+    "category": "Kategoriya",
+    "image": "Rasm",
+    "tags": "Teglar",
+    "isPublic": "Ochiq (barcha ro'yxatdan o'tgan foydalanuvchilar element qo'sha oladi)",
+    "tabs": {
+      "items": "Elementlar",
+      "chat": "Muhokama",
+      "settings": "Sozlamalar",
+      "customId": "Maxsus ID",
+      "fields": "Maydonlar",
+      "access": "Kirish huquqi",
+      "stats": "Statistika"
+    },
+    "access": {
+      "title": "Kirish huquqini boshqarish",
+      "addUser": "Ism yoki email orqali foydalanuvchi qo'shing",
+      "sortByName": "Ism bo'yicha saralash",
+      "sortByEmail": "Email bo'yicha saralash",
+      "removeUser": "O'chirish"
+    },
+    "stats": {
+      "totalItems": "Jami elementlar",
+      "numericRange": "Diapazon",
+      "numericAvg": "O'rtacha",
+      "topValues": "Eng ko'p ishlatiladigan qiymatlar"
+    },
+    "deleteConfirm": "Bu inventoryni o'chirishga ishonchingiz komilmi?"
+  },
+  "fields": {
+    "addField": "Maydon qo'shish",
+    "fieldTitle": "Maydon nomi",
+    "fieldDescription": "Tavsif (maslahat sifatida ko'rsatiladi)",
+    "fieldType": "Turi",
+    "showInTable": "Jadvalda ko'rsatish",
+    "types": {
+      "TEXT_SINGLE": "Bir qatorli matn",
+      "TEXT_MULTI": "Ko'p qatorli matn",
+      "NUMBER": "Raqam",
+      "BOOLEAN": "Belgilash (checkbox)",
+      "LINK": "Havola (hujjat/rasm)"
+    },
+    "dragToReorder": "Tartibni o'zgartirish uchun torting",
+    "limitReached": "Bu turdagi maydonlar maksimal soni: {{max}}"
+  },
+  "customId": {
+    "title": "Maxsus ID formati",
+    "description": "Ushbu inventorydagi elementlar uchun ID formatini sozlang.",
+    "preview": "Ko'rinish",
+    "addElement": "Element qo'shish",
+    "dragToReorder": "Tartibni o'zgartirish uchun torting, o'chirish uchun tashqariga torting",
+    "elements": {
+      "fixed": "Matn",
+      "random20": "20-bitli tasodifiy",
+      "random32": "32-bitli tasodifiy",
+      "random6": "6 xonali tasodifiy",
+      "random9": "9 xonali tasodifiy",
+      "guid": "GUID",
+      "datetime": "Sana/vaqt",
+      "sequence": "Ketma-ketlik"
+    }
+  },
+  "items": {
+    "addItem": "Element qo'shish",
+    "noItems": "Hali element yo'q",
+    "createdBy": "Yaratuvchi",
+    "createdAt": "Yaratilgan vaqt",
+    "customId": "ID",
+    "likes": "{{count}} layk",
+    "likes_other": "{{count}} layk",
+    "likeItem": "Layk",
+    "unlikeItem": "Laykni olib tashlash",
+    "deleteConfirm": "Bu elementni o'chirasizmi?"
+  },
+  "chat": {
+    "title": "Muhokama",
+    "placeholder": "Xabar yozing... (Markdown qo'llab-quvvatlanadi)",
+    "send": "Yuborish",
+    "noPosts": "Hali xabar yo'q. Muhokamani boshlang!",
+    "loginToPost": "Muhokamada qatnashish uchun tizimga kiring"
+  },
+  "search": {
+    "title": "Qidiruv natijalari",
+    "query": "Qidiruv so'rovi",
+    "noResults": "Hech narsa topilmadi",
+    "results": "{{count}} ta natija topildi",
+    "results_other": "{{count}} ta natija topildi"
+  },
+  "admin": {
+    "title": "Admin paneli",
+    "users": "Foydalanuvchilar",
+    "userName": "Ism",
+    "userEmail": "Email",
+    "userStatus": "Holat",
+    "userRole": "Rol",
+    "block": "Bloklash",
+    "unblock": "Blokdan chiqarish",
+    "makeAdmin": "Admin qilish",
+    "removeAdmin": "Admin huquqini olish",
+    "deleteUser": "Foydalanuvchini o'chirish",
+    "active": "Faol",
+    "blocked": "Bloklangan",
+    "admin": "Admin",
+    "user": "Foydalanuvchi"
+  },
+  "errors": {
+    "notFound": "Sahifa topilmadi",
+    "unauthorized": "Siz tizimga kirmagansiz",
+    "forbidden": "Ruxsat yo'q",
+    "versionConflict": "Bu yozuv boshqa foydalanuvchi tomonidan o'zgartirilgan. Iltimos, qayta yuklang.",
+    "duplicateId": "Bu ID allaqachon mavjud. Iltimos, o'zgartirib qayta urinib ko'ring."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "confirm": "Are you sure?",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "create": "Create",
+    "allChangesSaved": "All changes saved",
+    "saving": "Saving..."
+  },
+  "navbar": {
+    "search": "Search...",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "admin": "Admin Panel",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "home": {
+    "title": "Inventory Management",
+    "latestInventories": "Latest Inventories",
+    "topInventories": "Top 5 Most Popular",
+    "tagCloud": "Tags",
+    "creator": "Creator",
+    "itemCount": "Items"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "loginWithGoogle": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "confirmEmail": "Please confirm your email address",
+    "emailSent": "Confirmation email sent!",
+    "invalidCredentials": "Invalid email or password",
+    "emailNotVerified": "Please verify your email first"
+  },
+  "profile": {
+    "title": "My Profile",
+    "myInventories": "My Inventories",
+    "accessibleInventories": "Inventories I Can Edit",
+    "createInventory": "Create Inventory",
+    "noInventories": "No inventories yet"
+  },
+  "inventory": {
+    "title": "Title",
+    "description": "Description",
+    "category": "Category",
+    "image": "Image",
+    "tags": "Tags",
+    "isPublic": "Public (all authenticated users can add items)",
+    "tabs": {
+      "items": "Items",
+      "chat": "Discussion",
+      "settings": "Settings",
+      "customId": "Custom ID",
+      "fields": "Fields",
+      "access": "Access",
+      "stats": "Statistics"
+    },
+    "access": {
+      "title": "Access Management",
+      "addUser": "Add user by name or email",
+      "sortByName": "Sort by name",
+      "sortByEmail": "Sort by email",
+      "removeUser": "Remove"
+    },
+    "stats": {
+      "totalItems": "Total Items",
+      "numericRange": "Range",
+      "numericAvg": "Average",
+      "topValues": "Most Used Values"
+    },
+    "deleteConfirm": "Are you sure you want to delete this inventory?"
+  },
+  "fields": {
+    "addField": "Add Field",
+    "fieldTitle": "Field Title",
+    "fieldDescription": "Description (shown as tooltip)",
+    "fieldType": "Type",
+    "showInTable": "Show in table",
+    "types": {
+      "TEXT_SINGLE": "Single-line text",
+      "TEXT_MULTI": "Multi-line text",
+      "NUMBER": "Number",
+      "BOOLEAN": "Checkbox",
+      "LINK": "Link (document/image)"
+    },
+    "dragToReorder": "Drag to reorder",
+    "limitReached": "Maximum {{max}} fields of this type allowed"
+  },
+  "customId": {
+    "title": "Custom ID Format",
+    "description": "Configure the ID format for items in this inventory.",
+    "preview": "Preview",
+    "addElement": "Add element",
+    "dragToReorder": "Drag to reorder, drag outside to remove",
+    "elements": {
+      "fixed": "Fixed text",
+      "random20": "20-bit random",
+      "random32": "32-bit random",
+      "random6": "6-digit random",
+      "random9": "9-digit random",
+      "guid": "GUID",
+      "datetime": "Date/time",
+      "sequence": "Sequence"
+    }
+  },
+  "items": {
+    "addItem": "Add Item",
+    "noItems": "No items yet",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "customId": "ID",
+    "likes": "{{count}} like",
+    "likes_other": "{{count}} likes",
+    "likeItem": "Like",
+    "unlikeItem": "Unlike",
+    "deleteConfirm": "Delete this item?"
+  },
+  "chat": {
+    "title": "Discussion",
+    "placeholder": "Write a message... (Markdown supported)",
+    "send": "Send",
+    "noPosts": "No posts yet. Start the discussion!",
+    "loginToPost": "Login to participate in the discussion"
+  },
+  "search": {
+    "title": "Search Results",
+    "query": "Search query",
+    "noResults": "No results found",
+    "results": "{{count}} result found",
+    "results_other": "{{count}} results found"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "users": "Users",
+    "userName": "Name",
+    "userEmail": "Email",
+    "userStatus": "Status",
+    "userRole": "Role",
+    "block": "Block",
+    "unblock": "Unblock",
+    "makeAdmin": "Make Admin",
+    "removeAdmin": "Remove Admin",
+    "deleteUser": "Delete User",
+    "active": "Active",
+    "blocked": "Blocked",
+    "admin": "Admin",
+    "user": "User"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized",
+    "forbidden": "Access denied",
+    "versionConflict": "This record was modified by someone else. Please reload and try again.",
+    "duplicateId": "This ID already exists. Please change it and try again."
+  }
+}
