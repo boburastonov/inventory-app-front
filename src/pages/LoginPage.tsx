@@ -94,7 +94,7 @@ const LoginPage = () => {
             </div>
 
             <a
-              href="http://localhost:3000/api/auth/google"
+              href={`${import.meta.env.VITE_API_URL?.replace("/api", "") || "http://localhost:3000"}/api/auth/google`}
               className="btn btn-outline-danger w-100 mb-3"
             >
               🔴 {t("auth.loginWithGoogle")}
